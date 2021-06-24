@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Display</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/script.js' %}"></script>
+</head>
+<body>
+
+    <h3>The current time and date:</h3>
+    <div id='container'>
+        <div class='boxes'>
+            <h2>UTC - Coordinated</h2>
+            <h4>UTC</h4>
+            <h1>{{ time_utc }}</h1>
+        </div>
+    </div>
+</body>
+</html>

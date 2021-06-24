@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+#container {
+    text-align: center;
+    background-color: #ccccff;
+}
+h3 {
+    padding: 20px;
+    color: #080808;
+    background-color: #dcd0ff;
+    display: flex;
+    justify-content: center;
+}
+.boxes {
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: #080808;
+    border-radius: 25px;
+}
+h1 {
+    margin: 10px;
+    padding: 20px;
+    color: #dcd0ff;
+}
+
+h2, h4 {
+    color: #ccccff;
+}
